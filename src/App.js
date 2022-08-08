@@ -13,7 +13,7 @@ function App() {
             Home
           </Navbar.Text>
           <Navbar.Text>
-            Home
+            About
           </Navbar.Text>
           <Navbar.Text>
             Home

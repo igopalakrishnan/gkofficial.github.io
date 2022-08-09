@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@600;700&display=swap');
 
 .Navbar-text {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface', ;
   font-weight: bolder;
   font-size: xx-large;
   
@@ -10,3 +11,16 @@
 .navlinks {
   text-align: center;
 }
+
+.name-col {
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+}
+
+
+/* .container {
+  background-image: url('../../assets/backgroung.jpg');
+  background-position: center;
+  background-size: cover;
+  
+} */

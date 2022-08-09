@@ -7,7 +7,10 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Image from 'react-bootstrap/Image';
+import logo from '../../assets/photo.jpg';
+import profile from '../../assets/myprofile.svg';
 import './navbar.css';
+import { Col, Row } from 'react-bootstrap';
 
 /**
 * @author
@@ -26,7 +29,7 @@ const Navbarcanvas = () => {
                 <Navbar expand="md">
                     <Navbar.Brand href="#">
                         <Image
-                            src="https://media.geeksforgeeks.org/wp-content/uploads/20210425000233/test-300x297.png"
+                            src={logo}
                             width='50'
                             height='50'
                             roundedCircle />
@@ -36,7 +39,7 @@ const Navbarcanvas = () => {
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title>
                                 <Image
-                                    src="https://media.geeksforgeeks.org/wp-content/uploads/20210425000233/test-300x297.png"
+                                    src={logo}
                                     width='50'
                                     height='50'
                                     roundedCircle />
@@ -86,6 +89,22 @@ const Navbarcanvas = () => {
                     </Navbar.Collapse>
 
                 </Navbar>
+                <Container className='homepage mt-5'>
+                    <Row>
+                    <Col className='name-col m-lg-5 p-md-5' sm={6}>
+                            <h1><strong>Hello, I am</strong></h1>
+                            <h1><strong>Gopalakrishnan</strong></h1>
+                        </Col>
+                        <Col>
+                            <Image
+                                src={profile}
+                                width='100%'
+                                height='100%'
+                                rounded />
+                        </Col>
+                       
+                    </Row>
+                </Container>
             </Container>
 
         </>

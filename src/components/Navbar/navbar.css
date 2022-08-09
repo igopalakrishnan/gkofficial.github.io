@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.Navbar-text {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bolder;
+  font-size: xx-large;
+  
+}
+
+.navlinks {
+  text-align: center;
+}

@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@600;700&display=swap');
 
 .Navbar-text {
-  font-family: 'Abril Fatface', ;
+  font-family: 'Abril Fatface', cursive !important ;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: x-large;
   
 }
 
@@ -15,6 +15,21 @@
 .name-col {
 font-family: 'Quicksand', sans-serif;
 font-weight: bold;
+}
+
+.navbar-container {
+  background-color: rgb(227, 255, 222);
+}
+
+.navbar {
+  background-color: white;
+  border-radius: 20px;
+}
+.button-container {
+  background-color: rgb(0, 181, 130);
+  border-radius: 15px;
+  padding: 8px;
+  border: none;
 }
 
 

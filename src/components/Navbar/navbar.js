@@ -95,11 +95,11 @@ const Navbarcanvas = () => {
                 </Navbar>
                 <Container className='homepage-container mt-5'>
                     <Row>
-                        <Col className='name-col m-lg-5 p-md-5' sm={6}>
-                            <Row><h1><strong>Hello, I am</strong></h1>
+                        <Col className='name-col mt-lg-5 p-md-5' sm={6}>
+                            <Row className='mt-lg-5 p-lg-5 mx-lg-5'><h1><strong>Hello, I am</strong></h1>
                                 <h1><strong>Gopalakrishnan</strong></h1>
                             </Row>
-                            <Row className='pt-3'>
+                            <Row  className='mx-lg-5 px-lg-5'>
                                 <Col>
                                     <FaGithubAlt className='mx-2' size={28} />
                                     <FiLinkedin className='mx-1' size={27} />
@@ -113,8 +113,8 @@ const Navbarcanvas = () => {
                                 </Row>
                             </Row>
                         </Col>
-                        <Col className=''>
-                            <Image
+                        <Col className='py-5 my-lg-5'>
+                            <Image 
                                 src={profile}
                                 width='100%'
                                 height='100%' />

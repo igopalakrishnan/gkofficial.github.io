@@ -95,7 +95,7 @@ const Navbarcanvas = () => {
                 </Navbar>
                 <Container className='homepage-container mt-5'>
                     <Row>
-                        <Col className='name-col mt-lg-5 p-md-5' sm={6}>
+                        <Col className='name-col mt-lg-5 p-md-5 pt-4' sm={6}>
                             <Row className='mt-lg-5 p-lg-5 mx-lg-5'><h1><strong>Hello, I am</strong></h1>
                                 <h1><strong>Gopalakrishnan</strong></h1>
                             </Row>
